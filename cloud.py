@@ -746,3 +746,8 @@ async def reset():
     st.limits = limits
     await broadcast(init_msg())
     return {"ok": True}
+
+
+@app.get("/logo.png")
+async def logo():
+    return FileResponse(Path(__file__).parent / "docs" / "logo.png", media_type="image/png")

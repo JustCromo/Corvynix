@@ -645,3 +645,8 @@ async def reset():
     await event("Demo azzerata")
     await push_state()
     return {"ok": True}
+
+
+@app.get("/logo.png")
+async def logo():
+    return FileResponse(Path(__file__).parent / "docs" / "logo.png", media_type="image/png")
