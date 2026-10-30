@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/logo.png" alt="Corvynix" width="160"></p>
+
 # Corvynix
 
 **Black box digitale e rilevamento dello spoofing GNSS per capsule di trasporto medicale via drone.**
